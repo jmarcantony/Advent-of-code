@@ -1,4 +1,4 @@
-with open("input.txt") as f:
+with open("../input.txt") as f:
     p = 0
     l = list(map(int, f.readlines()))
     for i in range(1, len(l)):

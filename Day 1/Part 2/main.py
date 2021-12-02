@@ -1,4 +1,4 @@
-with open("input.txt") as f:
+with open("../input.txt") as f:
     l = list(map(int, f.readlines()))
     W = [l[i:i+3] for i in range(len(l))]
     p = 0
